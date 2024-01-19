@@ -1,4 +1,5 @@
 This is a training course code!
+<p>123</p>
 <<<<<<< HEAD
 <br>
 All sources here!

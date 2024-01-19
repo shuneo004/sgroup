@@ -1,0 +1,26 @@
+#myframe {
+    background-color: red;
+    border: 3px solid;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 50px;
+    width: 300px;
+}
+
+.input1 {
+    background-color: grey;
+    width: 230px;
+    height: 32px;
+    margin-bottom: 18px;
+}
+.input2 {
+    background-color: grey;
+    width: 50px;
+    height: 25px;
+    margin-bottom: 18px;
+}
+.borderChild {
+    padding: 5px;
+    border: 2px dotted;
+
+}

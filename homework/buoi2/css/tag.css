@@ -37,9 +37,10 @@ button {
     font-size: 16px;
     transition-duration: 0.4s;
     cursor: pointer;
-    margin-bottom: 50px;
-    margin-top: 20px;
-    min-width: 130px;
+    margin: 10px;
+    /* margin-top: 20px; */
+    /* min-width: 130px; */
+
     text-transform: uppercase;
 }
 button:hover {
@@ -50,4 +51,15 @@ button:active {
     color: black;
     background: yellow;
     transform: scale(0.75);
+}
+.greyButton button {
+    color: rgb(24, 20, 20);
+    border: 1px solid rgb(15, 12, 12) ;
+    background: #ffffff;
+    text-transform: none;
+}
+p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
 }

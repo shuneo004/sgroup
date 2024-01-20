@@ -1,0 +1,49 @@
+
+.container {
+    margin: 10% 18%;
+    padding-right: 5%;
+    height: 500px;
+    /* height: 50%; */
+}
+.theblock {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    padding: 0%;
+    vertical-align: top; 
+}
+.part {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    /* height: 50px; */
+    margin: 0;
+    margin-left: 20px;
+    padding: 0%;
+    vertical-align: top; 
+}
+#heading {    
+    box-sizing: border-box;
+    border-bottom: 5px solid black;
+    width: 100%;
+    background-color: rgb(230, 208, 208);
+    height: 10%;
+    position: fixed;
+    top: 0;
+}
+
+#footer {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(230, 208, 208)!important;
+    height: 10%;
+}
+.logo{ 
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 30px; 
+    height: 30px; 
+}

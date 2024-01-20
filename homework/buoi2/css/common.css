@@ -1,7 +1,7 @@
 
 .container {
     margin: 10% 18%;
-    padding-right: 5%;
+    padding-right: 0;
     height: 500px;
     /* height: 50%; */
 }
@@ -38,12 +38,23 @@
     margin: 0;
     box-sizing: border-box;
     width: 100%;
-    background-color: rgb(230, 208, 208)!important;
-    height: 10%;
+    background-color: rgb(230, 208, 208);
+    height: 50%;
+    border-top: 5px solid black;
+    text-align: center;
+    padding: 5%;
 }
 .logo{ 
     border-radius: 15px;
     margin-top: 30px;
     width: 30px; 
     height: 30px; 
+}
+.topic {
+    display: inline-block;
+    border-bottom: #F26464 solid;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 0.5px;
+    color: black;
 }

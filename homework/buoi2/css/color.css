@@ -10,6 +10,12 @@
 .bgWhite {
     background-color: white !important;
 }
+.bgBlue {
+    background-color: blue!important;   
+}
+.bgYellow {
+    background-color: rgb(230, 230, 193)!important;
+}
 .green {
     color: green !important;
 }

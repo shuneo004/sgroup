@@ -1,0 +1,33 @@
+.bgRed {
+    background-color: red !important;
+}
+.bgGreen {
+    background-color: green !important;
+}
+.bgGrey {
+    background-color: rgb(235, 233, 233) !important;
+}
+.bgWhite {
+    background-color: white !important;
+}
+.bgBlue {
+    background-color: rgb(217, 217, 236)!important;
+}
+.bgYellow {
+    background-color: rgb(230, 230, 193)!important;
+}
+.green {
+    color: green !important;
+}
+.red {
+    color: red !important;
+}
+.white {
+    color: white !important;
+}
+.black {
+    color: black !important;
+}
+.grey {
+    color: grey; !important;
+}

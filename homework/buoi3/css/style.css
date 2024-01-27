@@ -49,16 +49,17 @@ body {
 .form-container {
     padding: 0 20%;
     margin-top: 120px;
+    margin-right: 20px;
     display: flex;
-    min-height: 500px;
+    height: auto;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .column-container {
     display: block;
-    max-height: 100%;
-    max-width: auto;
+    height: 100%;
+    max-width: 50%;
     flex-wrap: wrap;
     /* justify-content: flex-start;
     align-items: center;  */
@@ -139,4 +140,11 @@ button:active {
     color: black;
     background: yellow;
     transform: scale(0.75);
+}
+.greyButton button {
+    margin-top: 20px;
+    color: rgb(24, 20, 20);
+    border: 1px solid rgb(15, 12, 12) ;
+    background: #ffffff;
+    text-transform: none;
 }

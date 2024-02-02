@@ -1,0 +1,106 @@
+body {
+    background-color: #2f3238;
+    padding: 0 25%;
+    transition: all 0.5s linear;
+}
+.title {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.container {
+    width: 100%;
+    height: auto;
+    
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;        
+    width: 100%;
+    height: auto;
+}
+.square { 
+    position: relative;
+    padding: 10px;
+}
+img {
+    width: 100%;
+    z-index: 0;
+}
+h2 {
+    width: 100%;
+    padding-left: 10px;
+    color: #484b54;
+}
+
+
+.textOverImage {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.textAfterEffectHover {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+    
+
+div.textOverImage h2{
+    padding: 0;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;    
+    font-weight: normal;
+    z-index: 1;
+}
+div.textOverImage span {
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.square:hover .textAfterEffectHover {    
+    color: black;
+    z-index: 1;
+    opacity: 1;
+    /* animation: theAnimation 0.25s linear forwards; */
+
+    animation-name: theAnimation;
+    animation-duration: 0.25s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-delay: 100s;
+}
+.square:hover img {    
+    opacity: 0.2;
+}
+p {
+    background-color: white;
+    margin: 4px;
+    padding: 10px;
+}
+@keyframes theAnimation {    
+    from {
+        position: absolute;
+        top: 30%;
+        left: 0;
+    } to {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+}
+.textAfterEffectHover :nth-child(1) {
+    animation-delay: 1s;
+}
+.textAfterEffectHover p:nth-child(2) {
+    animation-delay: 2s;
+}
+.textAfterEffectHover p:nth-child(3) {
+    animation-delay: 3s;
+}

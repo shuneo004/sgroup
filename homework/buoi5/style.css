@@ -66,15 +66,17 @@ div.textOverImage span {
 }
 .square:hover .textAfterEffectHover {    
     color: black;
-    z-index: 1;
+    z-index: 1; 
     opacity: 1;
-    /* animation: theAnimation 0.25s linear forwards; */
-
+    animation: theAnimation 0.25s linear 10s forwards;
+/* 
     animation-name: theAnimation;
     animation-duration: 0.25s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-delay: 100s;
+    animation-fill-mode: forwards; */
+
 }
 .square:hover img {    
     opacity: 0.2;
